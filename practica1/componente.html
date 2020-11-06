@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="uft-8" />
+    <title>World Wide Web</title>
+</head>
+
+<body>
+    <h1>World Wide Web</h1>
+
+    <p>
+        En informática, la World Wide Web (WWW) o Red informática mundial comúnmente conocida
+        como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y
+        accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que
+        pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando
+        hiperenlaces.
+    </p>
+    <h2>Los tres pilares de la Web</h2>
+
+    <p>
+        <a href="http://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>
+        es considerado el padre de la web porque desarrolló los tres elementos básicos para el funcionamiento de la
+        <a href="http://es.wikipedia.org/wiki/World_Wide_Web">Web</a>
+
+
+    </p>
+    <h3>Pilares fundamentales de Tim Tim Berners-Lee</h3>
+    <ul>
+        <li>Web</li>
+        <li>HTML</li>
+        <li>HTTP</li>
+        <li>URL</li>
+    </ul>
+
+
+    <ul>
+        <li><strong>Nombre completo: </strong> Bruce Wayne</li>
+        <li><strong>Fecha de nacimiento: </strong> 1/5/1939</li>
+        <li><strong>Lugar de nacimiento: </strong> Gotham City</li>
+    </ul>
+
+    <h2>Contenido</h2>
+    <ol>
+        <li>Principales protocolos</li>
+        <li>Formas de conectarse</li>
+    </ol>
+
+    <h3>1. Principales protocolos</h3>
+    <ul>
+        <li>Transmisión de ficheros:
+            <ul>
+                <li> FTP </li>
+            </ul>
+        </li>
+        <li> Correo electrónico:
+            <ul>
+                <li> IMAP </li>
+                <li> POP </li>
+                <li> SMTP </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Imagenes</h3>
+    <img src="imagenes/32.jpeg">
+
+    <h3>Tablas</h3>
+    <table border="1">
+        <tr>
+            <th>Categoría</th>
+            <th>Etiquetas</th>
+        </tr>
+        <tr>
+            <th rowspan="5">Formulario</th>
+            <td>form</td>
+        </tr>
+        <tr>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>input</td>
+        </tr>
+        <tr>
+            <td>select</td>
+        </tr>
+        <tr>
+            <td>textarea</td>
+        </tr>
+        <tr>
+            <th rowspan="5">Tabla</th>
+            <td>table</td>
+        </tr>
+        <tr>
+            <td>TR</td>
+        </tr>
+        <tr>
+            <td>TH</td>
+        </tr>
+        <tr>
+            <td>TD</td>
+        </tr>
+        <tr>
+            <td>caption</td>
+        </tr>
+
+    </table>
+
+    <h4>Videos</h4>
+
+    <video width="320" height="240">
+        <source src="media/Binomio_de_oro_Como_duele_el_frio.mp4" type="video/mp4">
+    </video>
+
+    <video width="320" height="240" controls>
+        <source src="media/Binomio_de_oro_Como_duele_el_frio.mp4" type="video/mp4">
+    </video>
+
+    <h4>Audio</h4>
+    <audio controls>
+        <source src="media/bendita_la_luz.mp3" type="audio/ogg">
+    </audio>
+
+    <h3>Formularios</h3>
+    <form action="" method="POST">
+        <p>
+            <label>Nombre</label>
+            <input type="text" name="nombre" id="nombre" maxlength="50" />
+        </p>
+        <p>
+            <label>Apellido</label>
+            <input type="text" name="apellido" id="apellido" maxlength="50" />
+        </p>
+        <p>
+            Sexo: <br>
+            <input type="radio" name="sexo" id="sexo-h" value="h" checked/>
+            <label>hombre</label>
+            <input type="radio" name="sexo" id="sexo-m" value="m" />
+            <label>mujer</label>
+        </p>
+        <p>
+            <label>Correo electronico</label>
+            <input type="email" name="correo" id="correo" maxlength="100" />
+        </p>
+        <p>
+            <label>Poblacion</label>
+            <select name="poblacion" id="poblacion">
+                <option>Loja</option>
+                <option>Manta</option>
+                <option>Portoviejo</option>
+                <option>La plata</option>
+            </select>
+        </p>
+        <p>
+            <label>Descripccion:</label>
+            <textarea name="descripcion" id="descripcion" cols="60" rows="6"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="info" id="info"  checked/>
+            <label>Desea recibir informacion y otras ofertas</label>
+        </p>
+        <p>
+            <input type="checkbox" name="condiciones" id="condiciones" checked/>
+            <label>Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+                Enviar</label>
+        </p>
+        <p>
+            <input type="sumit" value="enviar"/>
+        </p>
+    </form>
+</body>
+
+</html>
