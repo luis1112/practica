@@ -1,0 +1,27 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+#datos, #principal{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+#datos{
+    width: 25%;
+}
+#principal{
+    width: 25%;
+}
+#contenido{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+#contenido li{
+    width: 80% ;
+}

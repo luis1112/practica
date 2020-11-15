@@ -1,0 +1,22 @@
+a{
+    color: brown;
+    text-decoration: none;
+}
+a:visited{
+    color: chartreuse;
+
+}
+a:hover{
+  color: white;
+  background: blue;
+  text-decoration: underline;
+}
+a:focus{
+  color: darkseagreen;
+  text-decoration: dotted;
+}
+a:active{
+    columns: red;
+    background: white;
+     text-decoration: line-through;
+}

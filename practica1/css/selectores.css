@@ -1,0 +1,34 @@
+#fila1{
+    color: teal;
+}
+#fila2{
+    color: red;
+}
+#fila3{
+    color: blue;
+}
+#fila4{
+    color: purple;
+}
+#fila5{
+    color: peru;
+}
+#fila6{
+    color: orange;
+}
+#fila7{
+    color: orangered;
+}
+#fila8{
+    color: yellow;
+}
+td{
+    background-color: wheat;
+}
+td+td{
+    background-color: green;
+}
+td+td+td{
+    background-color: tomato;
+
+}
